@@ -35,7 +35,7 @@ window.customConfig = {
 };
 
 // Run the bot with your custom settings
-fetch('https://raw.githubusercontent.com/lastlink/sprouts_coupons/main/coupon-bot.js')
+fetch('https://raw.githubusercontent.com/lastlink/Sprouts-Coupon-Bot/main/coupon-bot.js')
   .then(response => response.text())
   .then(code => eval(code))
   .catch(error => console.error('Error loading coupon bot:', error));
