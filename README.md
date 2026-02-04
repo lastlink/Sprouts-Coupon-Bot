@@ -23,7 +23,8 @@ Based off of https://github.com/xpertdev/Bjs-Wholesale-Coupon-Bot
 ### Option 1: Direct GitHub Link
 Copy and paste this into your console to run with default settings:
 ```javascript
-fetch('https://raw.githubusercontent.com/<your-username>/sprouts_coupons/main/coupon-bot.js')
+
+fetch('https://raw.githubusercontent.com/lastlink/Sprouts-Coupon-Bot/refs/heads/main/coupon-bot.js')
   .then(response => response.text())
   .then(code => eval(code))
   .catch(error => console.error('Error loading coupon bot:', error));
@@ -37,7 +38,7 @@ window.customConfig = {
 };
 
 // Run the bot with your custom settings
-fetch('https://raw.githubusercontent.com/lastlink/Sprouts-Coupon-Bot/main/coupon-bot.js')
+fetch('https://raw.githubusercontent.com/lastlink/Sprouts-Coupon-Bot/refs/heads/main/coupon-bot.js')
   .then(response => response.text())
   .then(code => eval(code))
   .catch(error => console.error('Error loading coupon bot:', error));
