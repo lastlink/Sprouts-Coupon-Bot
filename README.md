@@ -10,13 +10,15 @@ Based off of https://github.com/xpertdev/Bjs-Wholesale-Coupon-Bot
 
 1. Open https://shop.sprouts.com/store/sprouts/pages/in-store-deals in your browser
 2. Sign in to your Sprouts account
-3. Open the browser console:
+3. Open https://shop.sprouts.com/store/sprouts/pages/in-store-deals
+   - Select Filter > Unclipped
+4. Open the browser console:
    - **Chrome/Edge (Windows)**: Press F12 or Ctrl+Shift+I or right-click and select "Inspect", then click on "Console" tab
    - **Chrome/Edge (Mac)**: Press Option+⌘+J, then click on "Console" tab
    - **Safari**: Press Option+⌘+C (first enable Developer menu in Safari > Preferences > Advanced)
    - **Firefox**: Press F12 (Windows) or Option+⌘+K (Mac), then click on "Console" tab
    - Guide: https://developers.google.com/web/tools/chrome-devtools/console/javascript
-4. Copy and paste one of the following options:
+5. Copy and paste one of the following options:
 
 ### Option 1: Direct GitHub Link
 Copy and paste this into your console to run with default settings:
